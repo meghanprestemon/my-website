@@ -1,0 +1,241 @@
+/*------------------------
+    BODY - all pages
+-------------------------*/
+
+.content {
+  max-width: 1366px;
+  width: 95%;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 34px;
+  color: #440F1D;
+  margin: 1em 0em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+i {
+  font-style: italic;
+}
+
+a {
+  color: #753D5D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7A8B8B;
+}
+
+/*------------------------
+    HEADER - all pages
+-------------------------*/
+
+.primary-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #A1B097;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 10px 0px;
+  border-bottom: .5px solid #7A8B8B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo, .home, .goals {
+  color: #440F1D;
+}
+
+.primary-header > .flex-item {
+  flex-basis: 15%;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 25px;
+}
+
+.primary-nav {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.nav > a:first-child {
+  margin-right: 1.5em;
+}
+
+/*------------------------
+    FOOTER - all pages
+-------------------------*/
+
+footer {
+  text-align: center;
+}
+
+.social-media {
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.fa-free-code-camp {
+  color: #006400;
+}
+
+.fa-github {
+  color: #24292e;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.primary-footer {
+  padding-top: 1.2em;
+  padding-bottom: .5em;
+  background-color: rgba(161, 176, 151, 0.75);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#home-nav {
+  margin: 0 5px;
+}
+
+#goals-nav {
+  margin: 0 5px;
+}
+
+/*------------------------
+         "HOME"
+-------------------------*/
+
+/*----WELCOME----*/
+
+#top {
+  position: absolute;
+  top: 0;
+}
+
+.welcome {
+  display: flex;
+  margin-top: 5em;
+  margin-bottom: 1em;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.welcome-p {
+  margin-top: 1em;
+  font-size: 22px;
+  line-height: 1.4em;
+}
+
+.welcome > .flex-item {
+  flex-basis: 40%;
+}
+
+hr {
+  margin-top: 2em;
+  color: #7A8B8B;
+}
+
+.portrait {
+  width: 85%;
+  border: 2px solid #7A8B8B;
+}
+
+/*----ABOUT----*/
+
+.about-me {
+  text-align: center;
+  background-color: rgba(161, 176, 151, 0.5);
+  padding: 10px 0;
+}
+
+.about-me-article {
+  text-align: justify;
+  font-size: 18px;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.25em;
+}
+
+p {
+    margin: 1em 0em;
+}
+
+/*----HOBBIES----*/
+
+.hobbies {
+  width: 70%;
+}
+
+.hobbies-header {
+  text-align: center;
+}
+
+dl.hobbies-list {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 95%;
+}
+dl.hobbies-list dt {
+  flex: 0 0 14%;
+  text-align: right;
+}
+dl.hobbies-list dd {
+  margin-left: auto;
+  text-align: left;
+  flex: 0 0 84%
+}
+
+dt {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+dd {
+  font-size: 18px;
+  line-height: 1.25em;
+}
+
+/*------------------------
+        "GOALS"
+-------------------------*/
+
+/*----GOALS----*/
+
+.goals {
+  margin: 5em auto 1em auto;
+  text-align: center;
+}
+
+.goals-article {
+  font-size: 18px;
+  width: 65%;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 1.25em;
+}
+
+/*----GIF----*/
+
+.gif {
+  width: 75%;
+  background: radial-gradient(#7A8B8B, #753D5D);
+  padding: 1.5em 0;
+  text-align: center;
+}
+
+.gif-hr {
+  width: 60%;
+}
